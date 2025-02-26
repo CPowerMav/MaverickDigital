@@ -1,0 +1,1 @@
+ls "\PathToSource\" -recurse | get-filehash | group -property hash | where { $_.count -gt 1 } | % { $_.group } | Out-File -FilePath "\PathToOutputFile\DuplicateFiles.txt"
