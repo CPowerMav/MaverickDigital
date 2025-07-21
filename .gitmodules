@@ -1,0 +1,3 @@
+[submodule "Server Tools/showtools"]
+	path = Server Tools/showtools
+	url = https://github.com/cpowermav/showtools.git
